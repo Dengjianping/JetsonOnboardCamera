@@ -38,6 +38,7 @@ $ roslaunch onboard_camera onboard_camera.launch width:=1920 height:=1080 fps:=1
 $ rosrun rviz rviz
 ```
 2. Add image to rviz.
+
    ![add_image](add_image_from_rviz.JPG)
 3. Choose topic. The video stream will be showed at the left-bottom of rviz.
    ![choose_topic](choose_image_topic.JPG)
