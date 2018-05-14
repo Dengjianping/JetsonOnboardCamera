@@ -38,9 +38,9 @@ $ roslaunch onboard_camera onboard_camera.launch width:=1920 height:=1080 fps:=1
 $ rosrun rviz rviz
 ```
 2. Add image to rviz.
-   ![add_image](add_image_from_rviz.jpg)
+   ![add_image](add_image_from_rviz.JPG)
 3. Choose topic. The video stream will be showed at the left-bottom of rviz.
-   ![add_image](choose_image_topic.jpg)
+   ![choose_topic](choose_image_topic.JPG)
 
 
 #### image_view
@@ -48,6 +48,6 @@ $ rosrun rviz rviz
 $ rosrun image_view image_view image:=/camera/onboard/image
 ```
 
-##To-do
+## To-do
 1. [Camera Calibration](http://wiki.ros.org/camera_calibration/Tutorials/MonocularCalibration) (looks easy)
 2. Add camera instead of image in rviz. (it need calibrate the camera to generate a camera info file, maybe someone would take a try)
